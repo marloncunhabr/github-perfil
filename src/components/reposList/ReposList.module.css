@@ -1,0 +1,28 @@
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.listItemName b, .listItemLanguage b {
+    margin-right: 8px;
+}
+
+.listItemLink {
+    display: block;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
